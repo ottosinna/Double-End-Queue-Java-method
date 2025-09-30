@@ -1,1 +1,3 @@
 # Double-End-Queue-Java-method
+
+This code implements a circular deque (double-ended queue) using an array, allowing efficient insertion and removal from both ends. The Deque class maintains front and rear pointers along with size tracking to manage elements in a circular manner. It provides core operations like insertFront/Back, removeFront/Back, and utility methods like peekNth and rotate, all with O(1) time complexity except for clear and rotate. Key features include the ability to peek at any position via peekNth() which calculates offsets from the front, and a rotate() method that shifts elements by repeatedly moving from back to front. 
